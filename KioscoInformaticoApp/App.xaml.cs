@@ -1,4 +1,6 @@
-﻿namespace KioscoInformaticoApp
+﻿using KioscoInformaticoApp.Views;
+
+namespace KioscoInformaticoApp
 {
     public partial class App : Application
     {
@@ -6,7 +8,8 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            //MainPage = new AppShell();
+            MainPage = new InicioSesionView();
         }
     }
 }
